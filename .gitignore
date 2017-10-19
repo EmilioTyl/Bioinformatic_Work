@@ -1,10 +1,12 @@
 
 # Created by https://www.gitignore.io/api/macos
 
+db/*
 ### macOS ###
 *.DS_Store
 .AppleDouble
 .LSOverride
+
 
 # Icon must end with two \r
 Icon

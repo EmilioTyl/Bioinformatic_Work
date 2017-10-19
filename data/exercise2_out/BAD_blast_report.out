@@ -1,0 +1,63 @@
+BLASTP 2.7.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+RID: YF4HCZ4301R
+
+
+Database: Non-redundant UniProtKB/SwissProt sequences
+           467,960 sequences; 176,193,313 total letters
+
+Query= NM_000207 Homo sapiens insulin (INS), transcript variant 1, mRNA.
+
+Length=156
+
+
+<b>No significant similarity found.</b> For reasons why, <A HREF = "Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=FAQ"><b>click here</A>.</b><br><br>
+  Database: Non-redundant UniProtKB/SwissProt sequences
+    Posted date:  Oct 17, 2017  11:13 AM
+  Number of letters in database: 176,193,313
+  Number of sequences in database:  467,960
+
+Lambda      K        H
+   0.333    0.138    0.577 
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 467960
+Number of Hits to DB: 4642625
+Number of extensions: 182221
+Number of successful extensions: 545
+Number of sequences better than 0.01: 0
+Number of HSP's better than 0.01 without gapping: 0
+Number of HSP's gapped: 548
+Number of HSP's successfully gapped: 0
+Length of query: 156
+Length of database: 176193313
+Length adjustment: 107
+Effective length of query: 49
+Effective length of database: 126121593
+Effective search space: 6179958057
+Effective search space used: 6179958057
+T: 11
+A: 40
+X1: 15 (7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 39 (19.6 bits)
+S2: 90 (39.3 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362
+
+
+
+

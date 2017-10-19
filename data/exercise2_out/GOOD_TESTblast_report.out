@@ -1,0 +1,970 @@
+BLASTP 2.7.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+RID: YF4F0G1U01R
+
+
+Database: Non-redundant UniProtKB/SwissProt sequences
+           467,960 sequences; 176,193,313 total letters
+Query= NM_000207 Homo sapiens insulin (INS), transcript variant 1, mRNA.
+
+Length=155
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+P01308.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  182     1e-59
+P30410.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  182     1e-59
+Q8HXV2.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  182     1e-59
+P30407.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  180     2e-58
+P30406.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  180     2e-58
+P01311.2  RecName: Full=Insulin; Contains: RecName: Full=Insul...  167     1e-53
+P01321.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  165     1e-52
+Q91XI3.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  163     6e-52
+P01310.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  156     2e-49
+P01326.1  RecName: Full=Insulin-2; Contains: RecName: Full=Ins...  156     5e-49
+P01323.1  RecName: Full=Insulin-2; Contains: RecName: Full=Ins...  156     5e-49
+P01313.2  RecName: Full=Insulin; Contains: RecName: Full=Insul...  155     9e-49
+P67972.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  154     2e-48
+P06306.2  RecName: Full=Insulin; Contains: RecName: Full=Insul...  154     4e-48
+P01322.1  RecName: Full=Insulin-1; Contains: RecName: Full=Ins...  152     1e-47
+P01315.2  RecName: Full=Insulin; Contains: RecName: Full=Insul...  151     4e-47
+Q62587.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  149     2e-46
+P01325.1  RecName: Full=Insulin-1; Contains: RecName: Full=Ins...  144     2e-44
+P01317.2  RecName: Full=Insulin; Contains: RecName: Full=Insul...  144     2e-44
+P01318.2  RecName: Full=Insulin; Contains: RecName: Full=Insul...  142     8e-44
+P01327.2  RecName: Full=Insulin; Contains: RecName: Full=Insul...  136     1e-41
+P21563.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  131     2e-39
+P01329.2  RecName: Full=Insulin; Contains: RecName: Full=Insul...  125     7e-37
+P17715.2  RecName: Full=Insulin; Contains: RecName: Full=Insul...  110     7e-31
+P51463.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  108     3e-30
+P67970.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  105     3e-29
+P12707.2  RecName: Full=Insulin-2; Contains: RecName: Full=Ins...  104     1e-28
+P12706.2  RecName: Full=Insulin-1; Contains: RecName: Full=Ins...  103     4e-28
+P01333.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  101     1e-27
+P01316.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  96.3    4e-26
+P67973.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  96.3    4e-26
+P01324.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  94.7    2e-25
+P01314.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  92.4    1e-24
+P01319.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  92.4    1e-24
+P01320.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  92.4    1e-24
+P67971.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  91.7    3e-24
+Q98TA8.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  92.0    1e-23
+P18109.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  89.7    2e-23
+Q9W7R2.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  89.7    9e-23
+P68243.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  86.7    3e-22
+P01328.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  85.1    1e-21
+P67968.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  85.1    1e-21
+P81423.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  84.3    2e-21
+P69045.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  85.9    3e-21
+C0HJI8.1  RecName: Full=Insulin-2; Contains: RecName: Full=Ins...  83.2    6e-21
+P81025.2  RecName: Full=Insulin; Contains: RecName: Full=Insul...  84.3    1e-20
+F8WCM5.1  RecName: Full=Insulin, isoform 2; AltName: Full=INS-...  85.9    2e-20
+P13190.2  RecName: Full=Insulin; Contains: RecName: Full=Insul...  82.8    2e-20
+Q9TQY7.2  RecName: Full=Insulin; Contains: RecName: Full=Insul...  81.6    2e-20
+P04667.2  RecName: Full=Insulin; Contains: RecName: Full=Insul...  82.8    3e-20
+O73727.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  82.0    7e-20
+P12703.2  RecName: Full=Insulin; Contains: RecName: Full=Insul...  80.1    9e-20
+P12708.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  79.0    3e-19
+P01335.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  80.5    3e-19
+P01334.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  78.6    4e-19
+P09476.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  78.6    4e-19
+C0HJI7.1  RecName: Full=Insulin-1; Contains: RecName: Full=Ins...  78.6    4e-19
+P68991.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  76.6    3e-18
+P0C236.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  75.9    4e-18
+P12705.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  75.5    1e-17
+P68987.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  75.1    1e-17
+P09477.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  73.9    2e-17
+C0HJI3.1  RecName: Full=Insulin-2; Contains: RecName: Full=Ins...  73.2    5e-17
+C0HJI2.1  RecName: Full=Insulin-1; Contains: RecName: Full=Ins...  72.8    7e-17
+C0HJI5.1  RecName: Full=Insulin-1; Contains: RecName: Full=Ins...  72.8    7e-17
+P68989.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  72.0    1e-16
+P01339.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  72.0    1e-16
+P29335.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  72.0    1e-16
+P01340.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  71.6    2e-16
+P69046.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  71.6    2e-16
+C0HJI4.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  71.6    2e-16
+P83770.1  RecName: Full=Insulin-like protein; Contains: RecNam...  70.9    4e-16
+P01342.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  72.0    7e-16
+P07453.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  70.1    8e-16
+P01336.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  70.1    8e-16
+P42633.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  70.1    8e-16
+P12704.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  70.1    8e-16
+P81881.1  RecName: Full=Insulin; Contains: RecName: Full=Insul...  69.7    1e-15
+P01337.1  RecName: Full=Insulin-1                                  69.3    2e-15
+P01338.1  RecName: Full=Insulin 2; Contains: RecName: Full=Ins...  62.4    7e-13
+P51462.1  RecName: Full=Insulin-like growth factor I; Short=IG...  53.5    1e-08
+Q90325.1  RecName: Full=Insulin-like growth factor I, adult fo...  53.9    1e-08
+Q90326.1  RecName: Full=Insulin-like growth factor I, juvenile...  53.9    1e-08
+P18254.1  RecName: Full=Insulin-like growth factor I; Short=IG...  53.5    2e-08
+P22334.1  RecName: Full=Insulin-like peptide; Contains: RecNam...  54.7    2e-08
+Q28933.1  RecName: Full=Insulin-like growth factor I; Short=IG...  51.2    3e-08
+P51458.1  RecName: Full=Insulin-like growth factor I; Short=IG...  52.0    4e-08
+P17647.1  RecName: Full=Insulin-like growth factor I; Short=IG...  52.0    4e-08
+P16545.1  RecName: Full=Insulin-like growth factor I; Short=IG...  52.0    7e-08
+Q6GUL6.2  RecName: Full=Insulin-like growth factor I; Short=IG...  52.0    7e-08
+Q6IVA5.2  RecName: Full=Insulin-like growth factor I; Short=IG...  52.0    7e-08
+Q6JLX1.2  RecName: Full=Insulin-like growth factor I; Short=IG...  52.0    7e-08
+P33712.2  RecName: Full=Insulin-like growth factor I; Short=IG...  52.0    7e-08
+P07455.2  RecName: Full=Insulin-like growth factor I; Short=IG...  52.0    7e-08
+Q02815.1  RecName: Full=Insulin-like growth factor I; Short=IG...  52.0    9e-08
+P17085.2  RecName: Full=Insulin-like growth factor I; Short=IG...  52.0    1e-07
+Q95222.3  RecName: Full=Insulin-like growth factor I; Short=IG...  51.2    1e-07
+P05019.1  RecName: Full=Insulin-like growth factor I; Short=IG...  52.0    1e-07
+P51457.2  RecName: Full=Insulin-like growth factor I; Short=IG...  50.4    3e-07
+P10763.2  RecName: Full=Insulin-like growth factor I; Short=IG...  49.3    7e-07
+
+ALIGNMENTS
+>P01308.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain; Flags: Precursor
+ Q6YK33.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain; Flags: Precursor
+Length=110
+
+ Score = 182 bits (463),  Expect = 1e-59
+ Identities = 86/86 (100%), Positives = 86/86 (100%), Gaps = 0/86 (0%)
+
+Query  44   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  103
+            FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG
+Sbjct  25   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  84
+
+Query  104  SLQKRGIVEQCCTSICSLYQLENYCN  129
+            SLQKRGIVEQCCTSICSLYQLENYCN
+Sbjct  85   SLQKRGIVEQCCTSICSLYQLENYCN  110
+
+
+>P30410.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain; Flags: Precursor
+Length=110
+
+ Score = 182 bits (463),  Expect = 1e-59
+ Identities = 86/86 (100%), Positives = 86/86 (100%), Gaps = 0/86 (0%)
+
+Query  44   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  103
+            FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG
+Sbjct  25   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  84
+
+Query  104  SLQKRGIVEQCCTSICSLYQLENYCN  129
+            SLQKRGIVEQCCTSICSLYQLENYCN
+Sbjct  85   SLQKRGIVEQCCTSICSLYQLENYCN  110
+
+
+>Q8HXV2.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain; Flags: Precursor
+Length=110
+
+ Score = 182 bits (463),  Expect = 1e-59
+ Identities = 86/86 (100%), Positives = 86/86 (100%), Gaps = 0/86 (0%)
+
+Query  44   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  103
+            FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG
+Sbjct  25   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  84
+
+Query  104  SLQKRGIVEQCCTSICSLYQLENYCN  129
+            SLQKRGIVEQCCTSICSLYQLENYCN
+Sbjct  85   SLQKRGIVEQCCTSICSLYQLENYCN  110
+
+
+>P30407.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain; Flags: Precursor
+Length=110
+
+ Score = 180 bits (456),  Expect = 2e-58
+ Identities = 85/86 (99%), Positives = 85/86 (99%), Gaps = 0/86 (0%)
+
+Query  44   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  103
+            FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED QVGQVELGGGPGAGSLQPLALEG
+Sbjct  25   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDPQVGQVELGGGPGAGSLQPLALEG  84
+
+Query  104  SLQKRGIVEQCCTSICSLYQLENYCN  129
+            SLQKRGIVEQCCTSICSLYQLENYCN
+Sbjct  85   SLQKRGIVEQCCTSICSLYQLENYCN  110
+
+
+>P30406.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain; Flags: Precursor
+Length=110
+
+ Score = 180 bits (456),  Expect = 2e-58
+ Identities = 85/86 (99%), Positives = 85/86 (99%), Gaps = 0/86 (0%)
+
+Query  44   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  103
+            FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED QVGQVELGGGPGAGSLQPLALEG
+Sbjct  25   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDPQVGQVELGGGPGAGSLQPLALEG  84
+
+Query  104  SLQKRGIVEQCCTSICSLYQLENYCN  129
+            SLQKRGIVEQCCTSICSLYQLENYCN
+Sbjct  85   SLQKRGIVEQCCTSICSLYQLENYCN  110
+
+
+>P01311.2 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain; Flags: Precursor
+Length=110
+
+ Score = 167 bits (424),  Expect = 1e-53
+ Identities = 78/86 (91%), Positives = 81/86 (94%), Gaps = 0/86 (0%)
+
+Query  44   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  103
+            FVNQHLCGSHLVEALYLVCGERGFFYTPK+RRE E+LQVGQ ELGGGPGAG LQP ALE
+Sbjct  25   FVNQHLCGSHLVEALYLVCGERGFFYTPKSRREVEELQVGQAELGGGPGAGGLQPSALEL  84
+
+Query  104  SLQKRGIVEQCCTSICSLYQLENYCN  129
+            +LQKRGIVEQCCTSICSLYQLENYCN
+Sbjct  85   ALQKRGIVEQCCTSICSLYQLENYCN  110
+
+
+>P01321.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain; Flags: Precursor
+Length=110
+
+ Score = 165 bits (417),  Expect = 1e-52
+ Identities = 77/86 (90%), Positives = 78/86 (91%), Gaps = 0/86 (0%)
+
+Query  44   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  103
+            FVNQHLCGSHLVEALYLVCGERGFFYTPK RRE EDLQV  VEL G PG G LQPLALEG
+Sbjct  25   FVNQHLCGSHLVEALYLVCGERGFFYTPKARREVEDLQVRDVELAGAPGEGGLQPLALEG  84
+
+Query  104  SLQKRGIVEQCCTSICSLYQLENYCN  129
+            +LQKRGIVEQCCTSICSLYQLENYCN
+Sbjct  85   ALQKRGIVEQCCTSICSLYQLENYCN  110
+
+
+>Q91XI3.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain; Flags: Precursor
+Length=110
+
+ Score = 163 bits (413),  Expect = 6e-52
+ Identities = 77/86 (90%), Positives = 80/86 (93%), Gaps = 0/86 (0%)
+
+Query  44   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  103
+            FVNQHLCGSHLVEALYLVCGERGFFYTPK+RRE E+ Q GQVELGGGPGAG  QPLALE
+Sbjct  25   FVNQHLCGSHLVEALYLVCGERGFFYTPKSRREVEEQQGGQVELGGGPGAGLPQPLALEM  84
+
+Query  104  SLQKRGIVEQCCTSICSLYQLENYCN  129
+            +LQKRGIVEQCCTSICSLYQLENYCN
+Sbjct  85   ALQKRGIVEQCCTSICSLYQLENYCN  110
+
+
+>P01310.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain; Flags: Precursor
+Length=86
+
+ Score = 156 bits (394),  Expect = 2e-49
+ Identities = 73/86 (85%), Positives = 74/86 (86%), Gaps = 0/86 (0%)
+
+Query  44   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  103
+            FVNQHLCGSHLVEALYLVCGERGFFYTPK   EAED QVG+VELGGGPG G LQPLAL G
+Sbjct  1    FVNQHLCGSHLVEALYLVCGERGFFYTPKAXXEAEDPQVGEVELGGGPGLGGLQPLALAG  60
+
+Query  104  SLQKRGIVEQCCTSICSLYQLENYCN  129
+              Q  GIVEQCCT ICSLYQLENYCN
+Sbjct  61   PQQXXGIVEQCCTGICSLYQLENYCN  86
+
+
+>P01326.1 RecName: Full=Insulin-2; Contains: RecName: Full=Insulin-2 B
+chain; Contains: RecName: Full=Insulin-2 A chain; Flags: Precursor
+Length=110
+
+ Score = 156 bits (394),  Expect = 5e-49
+ Identities = 73/86 (85%), Positives = 77/86 (90%), Gaps = 0/86 (0%)
+
+Query  44   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  103
+            FV QHLCGSHLVEALYLVCGERGFFYTP +RRE ED QV Q+ELGGGPGAG LQ LALE
+Sbjct  25   FVKQHLCGSHLVEALYLVCGERGFFYTPMSRREVEDPQVAQLELGGGPGAGDLQTLALEV  84
+
+Query  104  SLQKRGIVEQCCTSICSLYQLENYCN  129
+            + QKRGIV+QCCTSICSLYQLENYCN
+Sbjct  85   AQQKRGIVDQCCTSICSLYQLENYCN  110
+
+
+>P01323.1 RecName: Full=Insulin-2; Contains: RecName: Full=Insulin-2 B
+chain; Contains: RecName: Full=Insulin-2 A chain; Flags: Precursor
+Length=110
+
+ Score = 156 bits (394),  Expect = 5e-49
+ Identities = 73/86 (85%), Positives = 77/86 (90%), Gaps = 0/86 (0%)
+
+Query  44   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  103
+            FV QHLCGSHLVEALYLVCGERGFFYTP +RRE ED QV Q+ELGGGPGAG LQ LALE
+Sbjct  25   FVKQHLCGSHLVEALYLVCGERGFFYTPMSRREVEDPQVAQLELGGGPGAGDLQTLALEV  84
+
+Query  104  SLQKRGIVEQCCTSICSLYQLENYCN  129
+            + QKRGIV+QCCTSICSLYQLENYCN
+Sbjct  85   ARQKRGIVDQCCTSICSLYQLENYCN  110
+
+
+>P01313.2 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain; Flags: Precursor
+Length=110
+
+ Score = 155 bits (392),  Expect = 9e-49
+ Identities = 73/86 (85%), Positives = 77/86 (90%), Gaps = 0/86 (0%)
+
+Query  44   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  103
+            FVNQHLCGSHLVEALYLVCGERGFFYTPK+RR  ED QV Q+ELGGGPGA  LQ LALE
+Sbjct  25   FVNQHLCGSHLVEALYLVCGERGFFYTPKSRRGVEDPQVAQLELGGGPGADDLQTLALEV  84
+
+Query  104  SLQKRGIVEQCCTSICSLYQLENYCN  129
+            + QKRGIV+QCCTSICSLYQLENYCN
+Sbjct  85   AQQKRGIVDQCCTSICSLYQLENYCN  110
+
+
+>P67972.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain; Flags: Precursor
+Length=108
+
+ Score = 154 bits (390),  Expect = 2e-48
+ Identities = 73/86 (85%), Positives = 77/86 (90%), Gaps = 2/86 (2%)
+
+Query  44   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  103
+            FVNQHLCG HLVEALYLVCGERGFFY PKTRREAEDLQVGQVELGGG   GSL P  LEG
+Sbjct  25   FVNQHLCGPHLVEALYLVCGERGFFYAPKTRREAEDLQVGQVELGGGSITGSLPP--LEG  82
+
+Query  104  SLQKRGIVEQCCTSICSLYQLENYCN  129
+             +QKRG+V+QCCTSICSLYQL+NYCN
+Sbjct  83   PMQKRGVVDQCCTSICSLYQLQNYCN  108
+
+
+>P06306.2 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain; Flags: Precursor
+Length=110
+
+ Score = 154 bits (388),  Expect = 4e-48
+ Identities = 72/86 (84%), Positives = 74/86 (86%), Gaps = 0/86 (0%)
+
+Query  44   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  103
+            FVNQHLCGSHLVEALYLVCGERGFFYTPK RREAEDLQ    ELG  PGAG LQP ALE
+Sbjct  25   FVNQHLCGSHLVEALYLVCGERGFFYTPKARREAEDLQGKDAELGEAPGAGGLQPSALEA  84
+
+Query  104  SLQKRGIVEQCCTSICSLYQLENYCN  129
+             LQKRGIVEQCC S+CSLYQLE+YCN
+Sbjct  85   PLQKRGIVEQCCASVCSLYQLEHYCN  110
+
+
+>P01322.1 RecName: Full=Insulin-1; Contains: RecName: Full=Insulin-1 B
+chain; Contains: RecName: Full=Insulin-1 A chain; Flags: Precursor
+Length=110
+
+ Score = 152 bits (385),  Expect = 1e-47
+ Identities = 72/86 (84%), Positives = 76/86 (88%), Gaps = 0/86 (0%)
+
+Query  44   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  103
+            FV QHLCG HLVEALYLVCGERGFFYTPK+RRE ED QV Q+ELGGGP AG LQ LALE
+Sbjct  25   FVKQHLCGPHLVEALYLVCGERGFFYTPKSRREVEDPQVPQLELGGGPEAGDLQTLALEV  84
+
+Query  104  SLQKRGIVEQCCTSICSLYQLENYCN  129
+            + QKRGIV+QCCTSICSLYQLENYCN
+Sbjct  85   ARQKRGIVDQCCTSICSLYQLENYCN  110
+
+
+>P01315.2 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain; Flags: Precursor
+Length=108
+
+ Score = 151 bits (381),  Expect = 4e-47
+ Identities = 74/86 (86%), Positives = 75/86 (87%), Gaps = 2/86 (2%)
+
+Query  44   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  103
+            FVNQHLCGSHLVEALYLVCGERGFFYTPK RREAE+ Q G VELGG  G G LQ LALEG
+Sbjct  25   FVNQHLCGSHLVEALYLVCGERGFFYTPKARREAENPQAGAVELGG--GLGGLQALALEG  82
+
+Query  104  SLQKRGIVEQCCTSICSLYQLENYCN  129
+              QKRGIVEQCCTSICSLYQLENYCN
+Sbjct  83   PPQKRGIVEQCCTSICSLYQLENYCN  108
+
+
+>Q62587.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain; Flags: Precursor
+Length=110
+
+ Score = 149 bits (377),  Expect = 2e-46
+ Identities = 70/86 (81%), Positives = 75/86 (87%), Gaps = 0/86 (0%)
+
+Query  44   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  103
+            FVNQHLCGSHLVEALYLVCGERGFFYTPK RR  +D Q+ Q+ELGG PGAG L+ LALE
+Sbjct  25   FVNQHLCGSHLVEALYLVCGERGFFYTPKFRRGVDDPQMPQLELGGSPGAGDLRALALEV  84
+
+Query  104  SLQKRGIVEQCCTSICSLYQLENYCN  129
+            + QKRGIVEQCCT ICSLYQLENYCN
+Sbjct  85   ARQKRGIVEQCCTGICSLYQLENYCN  110
+
+
+>P01325.1 RecName: Full=Insulin-1; Contains: RecName: Full=Insulin-1 B
+chain; Contains: RecName: Full=Insulin-1 A chain; Flags: Precursor
+Length=108
+
+ Score = 144 bits (364),  Expect = 2e-44
+ Identities = 70/86 (81%), Positives = 74/86 (86%), Gaps = 2/86 (2%)
+
+Query  44   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  103
+            FV QHLCG HLVEALYLVCGERGFFYTPK+RRE ED QV Q+ELGG P  G LQ LALE
+Sbjct  25   FVKQHLCGPHLVEALYLVCGERGFFYTPKSRREVEDPQVEQLELGGSP--GDLQTLALEV  82
+
+Query  104  SLQKRGIVEQCCTSICSLYQLENYCN  129
+            + QKRGIV+QCCTSICSLYQLENYCN
+Sbjct  83   ARQKRGIVDQCCTSICSLYQLENYCN  108
+
+
+>P01317.2 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain; Flags: Precursor
+Length=105
+
+ Score = 144 bits (363),  Expect = 2e-44
+ Identities = 69/86 (80%), Positives = 71/86 (83%), Gaps = 5/86 (6%)
+
+Query  44   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  103
+            FVNQHLCGSHLVEALYLVCGERGFFYTPK RRE E  QVG +EL GGPGAG      LEG
+Sbjct  25   FVNQHLCGSHLVEALYLVCGERGFFYTPKARREVEGPQVGALELAGGPGAG-----GLEG  79
+
+Query  104  SLQKRGIVEQCCTSICSLYQLENYCN  129
+              QKRGIVEQCC S+CSLYQLENYCN
+Sbjct  80   PPQKRGIVEQCCASVCSLYQLENYCN  105
+
+
+>P01318.2 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain; Flags: Precursor
+Length=105
+
+ Score = 142 bits (359),  Expect = 8e-44
+ Identities = 68/86 (79%), Positives = 70/86 (81%), Gaps = 5/86 (6%)
+
+Query  44   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  103
+            FVNQHLCGSHLVEALYLVCGERGFFYTPK RRE E  QVG +EL GGPGAG      LEG
+Sbjct  25   FVNQHLCGSHLVEALYLVCGERGFFYTPKARREVEGPQVGALELAGGPGAG-----GLEG  79
+
+Query  104  SLQKRGIVEQCCTSICSLYQLENYCN  129
+              QKRGIVEQCC  +CSLYQLENYCN
+Sbjct  80   PPQKRGIVEQCCAGVCSLYQLENYCN  105
+
+
+>P01327.2 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain; Flags: Precursor
+Length=86
+
+ Score = 136 bits (343),  Expect = 1e-41
+ Identities = 64/86 (74%), Positives = 71/86 (83%), Gaps = 0/86 (0%)
+
+Query  44   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  103
+            FVN+HLCGSHLV+ALYLVCG+RGFFYTP    E ED QVGQ + G  P AG LQPLALE
+Sbjct  1    FVNKHLCGSHLVDALYLVCGDRGFFYTPMAXXELEDPQVGQADPGVVPEAGRLQPLALEM  60
+
+Query  104  SLQKRGIVEQCCTSICSLYQLENYCN  129
+            +LQ  GIV+QCCTSIC+LYQLENYCN
+Sbjct  61   TLQXXGIVDQCCTSICTLYQLENYCN  86
+
+
+>P21563.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain; Flags: Precursor
+Length=108
+
+ Score = 131 bits (330),  Expect = 2e-39
+ Identities = 69/87 (79%), Positives = 73/87 (84%), Gaps = 3/87 (3%)
+
+Query  44   FVNQHLCGSHLVEALY-LVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALE  102
+            FVNQHLCGSHLVEALY LVCGERGFFYTP +RRE ED QVGQVELG GPGAGS Q LALE
+Sbjct  24   FVNQHLCGSHLVEALYILVCGERGFFYTPMSRREVEDPQVGQVELGAGPGAGSEQTLALE  83
+
+Query  103  GSLQKRGIVEQCCTSICSLYQLENYCN  129
+             + Q R IV+QC + ICSLYQ ENYCN
+Sbjct  84   VARQAR-IVQQCTSGICSLYQ-ENYCN  108
+
+
+>P01329.2 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain; Flags: Precursor
+Length=110
+
+ Score = 125 bits (314),  Expect = 7e-37
+ Identities = 59/86 (69%), Positives = 69/86 (80%), Gaps = 0/86 (0%)
+
+Query  44   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  103
+            FV++HLCGS+LVE LY VC + GFFY PK RRE ED QV Q ELG G GAG LQPLALE
+Sbjct  25   FVSRHLCGSNLVETLYSVCQDDGFFYIPKDRRELEDPQVEQTELGMGLGAGGLQPLALEM  84
+
+Query  104  SLQKRGIVEQCCTSICSLYQLENYCN  129
+            +LQKRGIV+QCCT  C+ +QL++YCN
+Sbjct  85   ALQKRGIVDQCCTGTCTRHQLQSYCN  110
+
+
+>P17715.2 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain; Flags: Precursor
+Length=109
+
+ Score = 110 bits (274),  Expect = 7e-31
+ Identities = 56/86 (65%), Positives = 64/86 (74%), Gaps = 3/86 (3%)
+
+Query  44   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  103
+            + +QHLCGS+LVEALY+ CG  GF Y P  RRE EDLQV Q ELG    AG LQP ALE
+Sbjct  25   YSSQHLCGSNLVEALYMTCGRSGF-YRPHDRRELEDLQVEQAELG--LEAGGLQPSALEM  81
+
+Query  104  SLQKRGIVEQCCTSICSLYQLENYCN  129
+             LQKRGIV+QCC +IC+  QL+NYCN
+Sbjct  82   ILQKRGIVDQCCNNICTFNQLQNYCN  107
+
+
+>P51463.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain; Flags: Precursor
+Length=103
+
+ Score = 108 bits (270),  Expect = 3e-30
+ Identities = 57/88 (65%), Positives = 61/88 (69%), Gaps = 9/88 (10%)
+
+Query  45   VNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLAL---  101
+            VNQHLCGSHLVEALYLVCGERGFFY+PK RR+AE        L  GP  G +  L
+Sbjct  22   VNQHLCGSHLVEALYLVCGERGFFYSPKARRDAEH------PLVNGPLHGEVGDLPFQQE  75
+
+Query  102  EGSLQKRGIVEQCCTSICSLYQLENYCN  129
+            E    KRGIVEQCC + CSLYQLENYCN
+Sbjct  76   EFEKVKRGIVEQCCHNTCSLYQLENYCN  103
+
+
+>P67970.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain; Flags: Precursor
+Length=107
+
+ Score = 105 bits (263),  Expect = 3e-29
+ Identities = 55/84 (65%), Positives = 58/84 (69%), Gaps = 3/84 (4%)
+
+Query  46   NQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSL  105
+            NQHLCGSHLVEALYLVCGERGFFY+PK RR+ E   V     G    AG L     E
+Sbjct  27   NQHLCGSHLVEALYLVCGERGFFYSPKARRDVEQPLVSSPLRG---EAGVLPFQQEEYEK  83
+
+Query  106  QKRGIVEQCCTSICSLYQLENYCN  129
+             KRGIVEQCC + CSLYQLENYCN
+Sbjct  84   VKRGIVEQCCHNTCSLYQLENYCN  107
+
+
+>P12707.2 RecName: Full=Insulin-2; Contains: RecName: Full=Insulin-2 B
+chain; Contains: RecName: Full=Insulin-2 A chain; Flags: Precursor
+Length=106
+
+ Score = 104 bits (259),  Expect = 1e-28
+ Identities = 53/87 (61%), Positives = 58/87 (67%), Gaps = 9/87 (10%)
+
+Query  46   NQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLAL---E  102
+            NQHLCGSHLVEALYLVCG+RGFFY PK +R+ E  QV       GP    L  +     E
+Sbjct  26   NQHLCGSHLVEALYLVCGDRGFFYYPKIKRDIEQAQV------NGPQDNELDGMQFQPQE  79
+
+Query  103  GSLQKRGIVEQCCTSICSLYQLENYCN  129
+                KRGIVEQCC S CSL+QLENYCN
+Sbjct  80   YQKMKRGIVEQCCHSTCSLFQLENYCN  106
+
+
+>P12706.2 RecName: Full=Insulin-1; Contains: RecName: Full=Insulin-1 B
+chain; Contains: RecName: Full=Insulin-1 A chain; Flags: Precursor
+Length=106
+
+ Score = 103 bits (256),  Expect = 4e-28
+ Identities = 53/88 (60%), Positives = 59/88 (67%), Gaps = 9/88 (10%)
+
+Query  45   VNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLAL---  101
+            VNQHLCGSHLVEALYLVCG+RGFFY PK +R+ E   V       GP    L  + L
+Sbjct  25   VNQHLCGSHLVEALYLVCGDRGFFYYPKVKRDMEQALV------SGPQDNELDGMQLQPQ  78
+
+Query  102  EGSLQKRGIVEQCCTSICSLYQLENYCN  129
+            E    KRGIVEQCC S CSL+QLE+YCN
+Sbjct  79   EYQKMKRGIVEQCCHSTCSLFQLESYCN  106
+
+
+>P01333.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain; Flags: Precursor
+Length=81
+
+ Score = 101 bits (251),  Expect = 1e-27
+ Identities = 52/85 (61%), Positives = 57/85 (67%), Gaps = 7/85 (8%)
+
+Query  46   NQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALE-GS  104
+            NQHLCGSHLVEALYLVCGERGFFY+PKT  + E        L  GP  G +  L  +
+Sbjct  3    NQHLCGSHLVEALYLVCGERGFFYSPKTXXDVEQ------PLVNGPLHGEVGELPFQHEE  56
+
+Query  105  LQKRGIVEQCCTSICSLYQLENYCN  129
+             Q  GIVEQCC + CSLYQLENYCN
+Sbjct  57   YQXXGIVEQCCENPCSLYQLENYCN  81
+
+
+>P01316.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain
+Length=51
+
+ Score = 96.3 bits (238),  Expect = 4e-26
+ Identities = 49/86 (57%), Positives = 50/86 (58%), Gaps = 35/86 (41%)
+
+Query  44   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  103
+            FVNQHLCGSHLVEALYLVCGERGFFYTPKT
+Sbjct  1    FVNQHLCGSHLVEALYLVCGERGFFYTPKT------------------------------  30
+
+Query  104  SLQKRGIVEQCCTSICSLYQLENYCN  129
+                 GIVEQCCT +CSLYQLENYCN
+Sbjct  31   -----GIVEQCCTGVCSLYQLENYCN  51
+
+
+>P67973.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain
+ P67974.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain
+Length=51
+
+ Score = 96.3 bits (238),  Expect = 4e-26
+ Identities = 50/86 (58%), Positives = 50/86 (58%), Gaps = 35/86 (41%)
+
+Query  44   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  103
+            FVNQHLCGSHLVEALYLVCGERGFFYTPK
+Sbjct  1    FVNQHLCGSHLVEALYLVCGERGFFYTPKA------------------------------  30
+
+Query  104  SLQKRGIVEQCCTSICSLYQLENYCN  129
+                 GIVEQCCTSICSLYQLENYCN
+Sbjct  31   -----GIVEQCCTSICSLYQLENYCN  51
+
+
+>P01324.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain
+Length=51
+
+ Score = 94.7 bits (234),  Expect = 2e-25
+ Identities = 48/86 (56%), Positives = 51/86 (59%), Gaps = 35/86 (41%)
+
+Query  44   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  103
+            FV+QHLCGSHLVEALYLVCGERGFFYTPK+
+Sbjct  1    FVBQHLCGSHLVEALYLVCGERGFFYTPKS------------------------------  30
+
+Query  104  SLQKRGIVEQCCTSICSLYQLENYCN  129
+                 GIV+QCCTSICSLYQLENYCN
+Sbjct  31   -----GIVDQCCTSICSLYQLENYCN  51
+
+
+>P01314.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain
+Length=51
+
+ Score = 92.4 bits (228),  Expect = 1e-24
+ Identities = 48/86 (56%), Positives = 48/86 (56%), Gaps = 35/86 (41%)
+
+Query  44   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  103
+            FVNQHLCGSHLVEALYLVCGERGFFYTPK
+Sbjct  1    FVNQHLCGSHLVEALYLVCGERGFFYTPKA------------------------------  30
+
+Query  104  SLQKRGIVEQCCTSICSLYQLENYCN  129
+                 GIVEQCC S CSLYQLENYCN
+Sbjct  31   -----GIVEQCCASTCSLYQLENYCN  51
+
+
+>P01319.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain
+Length=51
+
+ Score = 92.4 bits (228),  Expect = 1e-24
+ Identities = 47/86 (55%), Positives = 48/86 (56%), Gaps = 35/86 (41%)
+
+Query  44   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  103
+            FVNQHLCGSHLVEALYLVCGERGFFYTPK
+Sbjct  1    FVNQHLCGSHLVEALYLVCGERGFFYTPKA------------------------------  30
+
+Query  104  SLQKRGIVEQCCTSICSLYQLENYCN  129
+                 GIVEQCC  +CSLYQLENYCN
+Sbjct  31   -----GIVEQCCAGVCSLYQLENYCN  51
+
+
+>P01320.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain
+Length=51
+
+ Score = 92.4 bits (228),  Expect = 1e-24
+ Identities = 47/86 (55%), Positives = 48/86 (56%), Gaps = 35/86 (41%)
+
+Query  44   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  103
+            F NQHLCGSHLVEALYLVCGERGFFYTPK
+Sbjct  1    FANQHLCGSHLVEALYLVCGERGFFYTPKA------------------------------  30
+
+Query  104  SLQKRGIVEQCCTSICSLYQLENYCN  129
+                 GIVEQCC S+CSLYQLENYCN
+Sbjct  31   -----GIVEQCCASVCSLYQLENYCN  51
+
+
+>P67971.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain
+Length=51
+
+ Score = 91.7 bits (226),  Expect = 3e-24
+ Identities = 46/86 (53%), Positives = 49/86 (57%), Gaps = 35/86 (41%)
+
+Query  44   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  103
+            FVNQHLCG HLVEALYLVCGERGFFY PKT
+Sbjct  1    FVNQHLCGPHLVEALYLVCGERGFFYAPKT------------------------------  30
+
+Query  104  SLQKRGIVEQCCTSICSLYQLENYCN  129
+                 G+V+QCCTSICSLYQL+NYCN
+Sbjct  31   -----GVVDQCCTSICSLYQLQNYCN  51
+
+
+>Q98TA8.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain; Flags: Precursor
+Length=110
+
+ Score = 92.0 bits (227),  Expect = 1e-23
+ Identities = 43/85 (51%), Positives = 56/85 (66%), Gaps = 1/85 (1%)
+
+Query  46   NQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSL  105
+            +QHLCGSHLV+ALY+VCGE+GFFY PKT+R+ + L                 P   +G L
+Sbjct  26   SQHLCGSHLVDALYMVCGEKGFFYQPKTKRDVDPLLGFLSPKSAQENEADEYPYKDQGDL  85
+
+Query  106  Q-KRGIVEQCCTSICSLYQLENYCN  129
+            + KRGIVEQCC   C+++ L+NYCN
+Sbjct  86   KVKRGIVEQCCHHPCNIFDLQNYCN  110
+
+
+>P18109.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain
+Length=51
+
+ Score = 89.7 bits (221),  Expect = 2e-23
+ Identities = 47/85 (55%), Positives = 47/85 (55%), Gaps = 35/85 (41%)
+
+Query  45   VNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGS  104
+            VNQHLCGSHLVEALYLVCGERGFFYTPK
+Sbjct  2    VNQHLCGSHLVEALYLVCGERGFFYTPKA-------------------------------  30
+
+Query  105  LQKRGIVEQCCTSICSLYQLENYCN  129
+                GIVEQCC SICSLYQLE YCN
+Sbjct  31   ----GIVEQCCNSICSLYQLETYCN  51
+
+
+>Q9W7R2.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain; Flags: Precursor
+Length=115
+
+ Score = 89.7 bits (221),  Expect = 9e-23
+ Identities = 46/89 (52%), Positives = 58/89 (65%), Gaps = 8/89 (9%)
+
+Query  47   QHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAG---SLQPLALEG  103
+            QHLCG+HLV+ALYLVCGERGFFYTPK  R+ + L        GG  AG    +   A +
+Sbjct  29   QHLCGAHLVDALYLVCGERGFFYTPK--RDVDPLLGFLPAKSGGAAAGGENEVAEFAFKD  86
+
+Query  104  SLQ---KRGIVEQCCTSICSLYQLENYCN  129
+             ++   KRGIVEQCC   C+++ L+NYCN
+Sbjct  87   QMEMMVKRGIVEQCCHKPCNIFDLQNYCN  115
+
+
+>P68243.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain
+ P68245.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain
+Length=51
+
+ Score = 86.7 bits (213),  Expect = 3e-22
+ Identities = 45/84 (54%), Positives = 47/84 (56%), Gaps = 35/84 (42%)
+
+Query  46   NQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSL  105
+            NQHLCGSHLVEALYLVCGERGFFY+PKT
+Sbjct  3    NQHLCGSHLVEALYLVCGERGFFYSPKT--------------------------------  30
+
+Query  106  QKRGIVEQCCTSICSLYQLENYCN  129
+               GIVEQCC + CSLYQLENYCN
+Sbjct  31   ---GIVEQCCENPCSLYQLENYCN  51
+
+
+>P01328.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain
+Length=51
+
+ Score = 85.1 bits (209),  Expect = 1e-21
+ Identities = 43/86 (50%), Positives = 46/86 (53%), Gaps = 35/86 (41%)
+
+Query  44   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  103
+            FVNQHLCGSHLVEALYLVCG  GFFY PK
+Sbjct  1    FVNQHLCGSHLVEALYLVCGNDGFFYRPKA------------------------------  30
+
+Query  104  SLQKRGIVEQCCTSICSLYQLENYCN  129
+                 GIV+QCCT +CSLYQL+NYCN
+Sbjct  31   -----GIVDQCCTGVCSLYQLQNYCN  51
+
+
+>P67968.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain
+ P67969.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain
+ P69047.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain
+ P69048.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain
+Length=51
+
+ Score = 85.1 bits (209),  Expect = 1e-21
+ Identities = 44/84 (52%), Positives = 46/84 (55%), Gaps = 35/84 (42%)
+
+Query  46   NQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSL  105
+            NQHLCGSHLVEALYLVCGERGFFY+PK
+Sbjct  3    NQHLCGSHLVEALYLVCGERGFFYSPKA--------------------------------  30
+
+Query  106  QKRGIVEQCCTSICSLYQLENYCN  129
+               GIVEQCC + CSLYQLENYCN
+Sbjct  31   ---GIVEQCCHNTCSLYQLENYCN  51
+
+
+>P81423.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain
+Length=52
+
+ Score = 84.3 bits (207),  Expect = 2e-21
+ Identities = 45/84 (54%), Positives = 45/84 (54%), Gaps = 34/84 (40%)
+
+Query  46   NQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSL  105
+            NQHLCGSHLVEALYLVCGERGFFYTP
+Sbjct  3    NQHLCGSHLVEALYLVCGERGFFYTP----------------------------------  28
+
+Query  106  QKRGIVEQCCTSICSLYQLENYCN  129
+             K GIVEQCC S CSLY LENYCN
+Sbjct  29   NKVGIVEQCCHSPCSLYDLENYCN  52
+
+
+>P69045.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain; Flags: Precursor
+Length=116
+
+ Score = 85.9 bits (211),  Expect = 3e-21
+ Identities = 46/91 (51%), Positives = 62/91 (68%), Gaps = 11/91 (12%)
+
+Query  47   QHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQV--ELGGGPGAGS---LQPLAL  101
+            QHLCGSHLV+ALYLVCG+RGFFY PK  R+ + L +G +  + GG   AG+   +   A
+Sbjct  29   QHLCGSHLVDALYLVCGDRGFFYNPK--RDVDQL-LGFLPPKSGGAAAAGADNEVAEFAF  85
+
+Query  102  EGSLQ---KRGIVEQCCTSICSLYQLENYCN  129
+            +  ++   KRGIVEQCC   C+++ L+NYCN
+Sbjct  86   KDQMEMMVKRGIVEQCCHRPCNIFDLQNYCN  116
+
+
+>C0HJI8.1 RecName: Full=Insulin-2; Contains: RecName: Full=Insulin-2 B
+chain; Contains: RecName: Full=Insulin-2 A chain
+Length=52
+
+ Score = 83.2 bits (204),  Expect = 6e-21
+ Identities = 44/84 (52%), Positives = 45/84 (54%), Gaps = 34/84 (40%)
+
+Query  46   NQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSL  105
+            NQHLCG+HLVEALYLVCGERGFFYTP
+Sbjct  3    NQHLCGAHLVEALYLVCGERGFFYTP----------------------------------  28
+
+Query  106  QKRGIVEQCCTSICSLYQLENYCN  129
+             K GIVEQCC S CSLY LENYCN
+Sbjct  29   NKVGIVEQCCHSPCSLYDLENYCN  52
+
+
+>P81025.2 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain; Flags: Precursor
+Length=113
+
+ Score = 84.3 bits (207),  Expect = 1e-20
+ Identities = 43/88 (49%), Positives = 59/88 (67%), Gaps = 8/88 (9%)
+
+Query  47   QHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQV--ELGGGPGAGSLQPLALEGS  104
+            QHLCGSHLV+ALYLVCG+RGFFY P  RR+ + L +G +  + GG    G    +  +
+Sbjct  29   QHLCGSHLVDALYLVCGDRGFFYNP--RRDVDPL-LGFLPPKAGGAVVQGGENEVTFKDQ  85
+
+Query  105  LQ---KRGIVEQCCTSICSLYQLENYCN  129
+            ++   KRGIVE+CC   C+++ L+NYCN
+Sbjct  86   MEMMVKRGIVEECCHKPCTIFDLQNYCN  113
+
+
+>F8WCM5.1 RecName: Full=Insulin, isoform 2; AltName: Full=INS-IGF2 readthrough
+transcript protein
+Length=200
+
+ Score = 85.9 bits (211),  Expect = 2e-20
+ Identities = 39/44 (89%), Positives = 40/44 (91%), Gaps = 0/44 (0%)
+
+Query  44  FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVEL  87
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ   + L
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQASALSL  68
+
+
+>P13190.2 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain; Flags: Precursor
+Length=89
+
+ Score = 82.8 bits (203),  Expect = 2e-20
+ Identities = 46/96 (48%), Positives = 52/96 (54%), Gaps = 23/96 (24%)
+
+Query  47   QHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQP--------  98
+            Q LCGSHLV+ALY VCGERGFFY+PK  R+   L   +           L+P
+Sbjct  4    QRLCGSHLVDALYFVCGERGFFYSPKQIRDVGPLSAFR----------DLEPPLDTEMED  53
+
+Query  99   -----LALEGSLQKRGIVEQCCTSICSLYQLENYCN  129
+                   L GS  KRGIVEQCC + CSL  LE YCN
+Sbjct  54   RFPYRQQLAGSKMKRGIVEQCCHNTCSLVNLEGYCN  89
+
+
+>Q9TQY7.2 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain
+Length=51
+
+ Score = 81.6 bits (200),  Expect = 2e-20
+ Identities = 40/86 (47%), Positives = 46/86 (53%), Gaps = 35/86 (41%)
+
+Query  44   FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEG  103
+            F NQHLCGSHLVEALYLVCGE+GF+Y P
+Sbjct  1    FPNQHLCGSHLVEALYLVCGEKGFYYIP--------------------------------  28
+
+Query  104  SLQKRGIVEQCCTSICSLYQLENYCN  129
+               + GIVE+CC  +CS+YQLENYCN
+Sbjct  29   ---RMGIVEECCKGVCSMYQLENYCN  51
+
+
+>P04667.2 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain;
+Contains: RecName: Full=Insulin A chain; Flags: Precursor
+Length=105
+
+ Score = 82.8 bits (203),  Expect = 3e-20
+ Identities = 42/83 (51%), Positives = 53/83 (64%), Gaps = 3/83 (4%)
+
+Query  47   QHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQ  106
+            QHLCGSHLV+ALYLVCGE+GFFYTPK  R+ + L +G +                   +
+Sbjct  26   QHLCGSHLVDALYLVCGEKGFFYTPK--RDVDPL-IGFLSPKSAKENEEYPFKDQTEMMV  82
+
+Query  107  KRGIVEQCCTSICSLYQLENYCN  129
+            KRGIVEQCC   C+++ L+NYCN
+Sbjct  83   KRGIVEQCCHKPCNIFDLQNYCN  105
+
+
+  Database: Non-redundant UniProtKB/SwissProt sequences
+    Posted date:  Oct 17, 2017  11:13 AM
+  Number of letters in database: 176,193,313
+  Number of sequences in database:  467,960
+
+Lambda      K        H
+   0.323    0.139    0.450
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 467960
+Number of Hits to DB: 5151738
+Number of extensions: 198972
+Number of successful extensions: 474
+Number of sequences better than 0.01: 9
+Number of HSP's better than 0.01 without gapping: 0
+Number of HSP's gapped: 473
+Number of HSP's successfully gapped: 15
+Length of query: 155
+Length of database: 176193313
+Length adjustment: 107
+Effective length of query: 48
+Effective length of database: 126121593
+Effective search space: 6053836464
+Effective search space used: 6053836464
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (20.4 bits)
+S2: 90 (39.3 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362
