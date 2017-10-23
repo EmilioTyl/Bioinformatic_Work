@@ -2,6 +2,8 @@ use Bio::Perl;
 use Bio::SeqIO;
 use Bio::Tools::Run::RemoteBlast;
 use Bio::Tools::Run::StandAloneBlast;
+use Bio::Tools::Run::StandAloneBlastPlus;
+
 
 my $numArgs = $#ARGV + 1;
 my $fasta_aminoacid_file = "../data/exercise1_out/procesed_protein_orf2.fas";
@@ -57,16 +59,19 @@ if ($remote == 1){
   #$local_blast->blastp(-query =>"gkjgkjgk", -outfile => $out_filename);
 
   #
+  $factory = Bio::Tools::Run::StandAloneBlastPlus->new(
+		-db_name => '/Users/emiliotylson/ncbi-blast/ncbi-blast-2.6.0+/data/swissprot',
+		-prog_dir => '/Users/emiliotylson/ncbi-blast/ncbi-blast-2.6.0+/bin');
+  $r = $factory->blastp(-query => $fasta_aminoacid_file, -outfile => $out_filename, -method_args => [ '-evalue' => 0.01 ]);
 
-
-  $local_blast = Bio::Tools::Run::StandAloneBlast->new( -program => 'blastp',
-                                                        -db_name => '/Users/emiliotylson/ncbi-blast/ncbi-blast-2.6.0+/data/swissprot',
-                                                        -prog_dir => '/Users/emiliotylson/ncbi-blast/ncbi-blast-2.6.0+/bin',
-                                                        -outfile => $outfile,
-                                                        -verbose => '1');
-  my $blast_report = $local_blast->blastp($query_in);
-  print $balst_report;
-
+  #@params = ('program' => 'blastp',
+  #          'database' => '/Users/emiliotylson/ncbi-blast/ncbi-blast-2.6.0+/data/swissprot',
+  #          'outfile' => $out_filename, '_READMETHOD' => 'Blast');
+  #$local_blast = Bio::Tools::Run::StandAloneBlast->new(@params); #-db_name => '/Users/emiliotylson/ncbi-blast/ncbi-blast-2.6.0+/data/swissprot',
+		                                                    #-prog_dir => '/Users/emiliotylson/ncbi-blast/ncbi-blast-2.6.0+/bin');
+  #my $blast_report = $local_blast->blastp($query_in);
+  #print $balst_report;
+  
   print("DONE");
 
 }
