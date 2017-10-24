@@ -1,0 +1,158 @@
+BLASTP 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: swissprot
+           467,960 sequences; 176,193,313 total letters
+
+
+
+Query= NM_001302688 Homo sapiens apolipoprotein E (APOE), transcript
+variant 1, mRNA.
+
+Length=438
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+A2ASS6.1  RecName: Full=Titin; AltName: Full=Connectin                49.3    6e-05
+Q9P219.3  RecName: Full=Protein Daple; AltName: Full=Coiled-coil ...  48.5    9e-05
+Q16U49.2  RecName: Full=Mediator of RNA polymerase II transcripti...  46.2    5e-04
+
+
+>A2ASS6.1 RecName: Full=Titin; AltName: Full=Connectin
+Length=35213
+
+ Score = 49.3 bits (116),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 65/258 (25%), Positives = 84/258 (33%), Gaps = 29/258 (11%)
+
+Query  111    PPAWRAPPPPAPSPRP----GGRGSGCPSPPSARAAARPRPGPAPVAAGRPGSPQWRPAR  166
+              P    A P P P  +       R  G P  P A     P+         RP +P  RP  
+Sbjct  11918  PKKAEAAPVPVPQVQETVPEKTRPVGPPKKPEATTVPVPKVQKTIPEKTRPEAPPKRPEA  11977
+
+Query  167    GPVPPGAPGARGWR*GRARRPRGPRPGTLPGASAGHRHRGGAAYAACAGGRRGAPAAPRC  226
+                VP   P            P+ P   TLP                      G P  P  
+Sbjct  11978  RTVPETVPEKT----RPMAPPKKPEATTLPVPEVQETVPEKTRPV-------GPPKKPEA  12026
+
+Query  227    SGRAWPAPRRGTAPGGRTRPPCPRPAGPAP-----PAAPWTAVPASPP-PPGSVVPPVPI  280
+              +    P P        +TRPP    A P P        P    P  PP  P +    VP 
+Sbjct  12027  T--TVPVPEVQETIPEKTRPPKKPEATPVPVPEVQETVPEKTRPVGPPKKPEATTVSVPE  12084
+
+Query  281    CRPSTPSWSRPSAPSVPG*PGS*AAPPA-PAQTVSAPSAGNPKSDPVPVPSAGRSATRSA  339
+               + + P  +RP+AP  P  P + A P   P +T        P++  VPVP A ++     
+Sbjct  12085  VQETIPEKTRPAAP--PKKPEATAVPETIPEKTRPEAPPKRPEATTVPVPEADQAVVPEK  12142
+
+Query  340    GAARAP---ALSPPLAPP  354
+                 R P     +PP+  P
+Sbjct  12143  KVPRVPPKKVEAPPITVP  12160
+
+
+ Score = 45.1 bits (105),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 55/212 (26%), Positives = 83/212 (39%), Gaps = 18/212 (8%)
+
+Query  219    GAPAAPRCSGRAWPAPRRGTAPGGRTRPPCP--RP-AGPAPPAAPWTAVPASPPP-PGSV  274
+              G P  P  +    P P+       +TRP  P  RP A   P   P    P +PP  P + 
+Sbjct  11943  GPPKKPEAT--TVPVPKVQKTIPEKTRPEAPPKRPEARTVPETVPEKTRPMAPPKKPEAT  12000
+
+Query  275    VPPVPICRPSTPSWSRPSAPSVPG*PGS*AAP-PAPAQTVSAPS--AGNPKSDPVPVPSA  331
+                PVP  + + P  +RP  P  P  P +   P P   +T+   +     P++ PVPVP  
+Sbjct  12001  TLPVPEVQETVPEKTRPVGP--PKKPEATTVPVPEVQETIPEKTRPPKKPEATPVPVPEV  12058
+
+Query  332    GRSA---TRSAGAARAPALSPPLAPPWPGILP-GM*PATQPTEPSSSCL*LASLEARGSQ  387
+                +    TR  G  + P  +    P     +P    PA  P +P ++ +     E    +
+Sbjct  12059  QETVPEKTRPVGPPKKPEATTVSVPEVQETIPEKTRPAAPPKKPEATAVPETIPEKTRPE  12118
+
+Query  388    GPSSF*RPLSSS-PCPRLRFSPAPGEGRPSPP  418
+               P    RP +++ P P    +  P +  P  P
+Sbjct  12119  APPK--RPEATTVPVPEADQAVVPEKKVPRVP  12148
+
+
+>Q9P219.3 RecName: Full=Protein Daple; AltName: Full=Coiled-coil domain-containing 
+protein 88C; AltName: Full=Dvl-associating protein 
+with a high frequency of leucine residues; Short=hDaple; 
+AltName: Full=Hook-related protein 2; Short=HkRP2
+Length=2028
+
+ Score = 48.5 bits (114),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 80/332 (24%), Positives = 108/332 (33%), Gaps = 76/332 (23%)
+
+Query  73    PSPPARPTGAAC----LPPGARTSS*GGPGRPRPAGVSAGPAPPAWRAPPPPAPSPRPGG  128
+             P PPA+  GA      + P  + ++    GRP   G    P      A  PP+ +PR   
+Sbjct  1713  PGPPAKKEGAKMPTNFVAPTVKMAAPTSEGRPLKPGQYVKPNFRLTEAEAPPSVAPRQA-  1771
+
+Query  129   RGSGCPSPPSARAAARPRPGPAPVAAGRPGS---------------------PQWRPARG  167
+                    PP + +  RPR  P P A+  P S                     P+      
+Sbjct  1772  ------QPPQSLSLGRPRQAPVPPASHAPASRSASLSRAFSLASADLLRASGPEACKQES  1825
+
+Query  168   PVPPGAPGARGWR*GRARRPRGPRPGTLPGASAGHRHRG---GAAYAACAG-GRRGAPAA  223
+             P   GAP A G R   +   + P P   P + +  R R    G A ++C G G R  P  
+Sbjct  1826  PQKLGAPEALGGRETGSHTLQSPAP---PSSHSLARERTPLVGKAGSSCQGPGPRSRPLD  1882
+
+Query  224   PRCSGRAWPAPRRGTAPGGRTRPPCPRPAGP-----------------APPAAPWTAV-P  265
+              R    A P   R  AP  ++                           +P AAP     P
+Sbjct  1883  TRRFSLAPPKEER-LAPLHQSATAPAIATAGAGAAAAGSGSNSQLLHFSPAAAPAARTKP  1941
+
+Query  266   ASPPPPGSVVPPVPICRPSTPSWSRPSAPSVPG*PGS*AAPPAPAQTVSAPSAGNPKSDP  325
+              +PP  G V    P+        S      VPG   S   P           A +P   P
+Sbjct  1942  KAPPRSGEVATITPV----RAGLSLSEGDGVPGQGCSEGLP-----------AKSPGRSP  1986
+
+Query  326   VPVPSAGRS---ATRSAGAARAPALSPPLAPP  354
+                P  GR+    +R + +  +PA   P   P
+Sbjct  1987  DLAPHLGRALEDCSRGSVSKSSPASPEPGGDP  2018
+
+
+>Q16U49.2 RecName: Full=Mediator of RNA polymerase II transcription subunit 
+14; AltName: Full=Mediator complex subunit 14
+Length=1578
+
+ Score = 46.2 bits (108),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 41/137 (30%), Positives = 50/137 (36%), Gaps = 18/137 (13%)
+
+Query  72    APSPPARPTGAACLPPGARTSS*GGPGRPRPAGVSAGPAPPAWRAPPPPAPS-PRPGGRG  130
+             +P  P     A   PP    S+   P  P P G+    + P +    PPAP  P P   G
+Sbjct  1050  SPRDPGLRFAAPLTPPSG--SNPHTPASPHPQGIGGSQSHPNFNMTSPPAPHMPHPSPSG  1107
+
+Query  131   SGCPSPPSARAAARPRPGPAPVAAGRPGSPQWRPARG----PVPPGAPGARGWR*GRARR  186
+                PS P         P P+P+AA  PG        G    P    +P A  W       
+Sbjct  1108  GLMPSSPL-------NPQPSPMAAHSPGPTNLPYMSGHTDSPFSAHSPAASNW----PGS  1156
+
+Query  187   PRGPRPGTLPGASAGHR  203
+             P  PRP   PG S  H+
+Sbjct  1157  PGMPRPSPRPGQSPDHK  1173
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.142    0.508    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 38172119934
+
+
+  Database: swissprot
+    Posted date:  Oct 18, 2017  4:04 PM
+  Number of letters in database: 176,193,313
+  Number of sequences in database:  467,960
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

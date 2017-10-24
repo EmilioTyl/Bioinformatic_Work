@@ -9,6 +9,10 @@ use Bio::Tools::Run::Alignment::Muscle;
 
 
 my $blast_report_name = "blast_report.out";
+my $numArgs = $#ARGV + 1;
+if ($numArgs > 0){
+  $blast_report_name = @ARGV[0];
+}
 my $blast_filename = "../data/exercise2_out/$blast_report_name";
 my $db = Bio::DB::Fasta->new('/Users/emiliotylson/ncbi-blast/ncbi-blast-2.6.0+/data/swissprot');
 my $fasta_aminoacid_file = "../data/exercise1_out/procesed_protein_orf2.fas";
@@ -38,9 +42,9 @@ while( $s = $t->next_seq() ){
 }
 
 #https://www.ebi.ac.uk/Tools/msa/
-@params = ('ktuple' => 2, 'matrix' => 'BLOSUM');
-$aligner = Bio::Tools::Run::Alignment::Muscle->new(@params);
+#@params = ('ktuple' => 2, 'matrix' => 'BLOSUM');
+#$aligner = Bio::Tools::Run::Alignment::Muscle->new(@params);
 
-print "@seqs.\n";
-$fas_seqs_ref = @seqs;
-$res = $aligner->align(\@seqs); # $aln is a SimpleAlign object.
+#print "@seqs.\n";
+#$fas_seqs_ref = @seqs;
+#$res = $aligner->align(\@seqs); # $aln is a SimpleAlign object.

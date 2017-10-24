@@ -1,0 +1,141 @@
+BLASTP 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: swissprot
+           467,960 sequences; 176,193,313 total letters
+
+
+
+Query= NM_001302688 Homo sapiens apolipoprotein E (APOE), transcript
+variant 1, mRNA.
+
+Length=438
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+A6H584.4  RecName: Full=Collagen alpha-5(VI) chain; AltName: Full...  52.8    5e-06
+A8TX70.1  RecName: Full=Collagen alpha-5(VI) chain; AltName: Full...  48.1    1e-04
+
+
+>A6H584.4 RecName: Full=Collagen alpha-5(VI) chain; AltName: Full=Collagen 
+alpha-1(XXIX) chain; Flags: Precursor
+Length=2640
+
+ Score = 52.8 bits (125),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 86/314 (27%), Positives = 108/314 (34%), Gaps = 52/314 (17%)
+
+Query  67    EGSVGCVAGHIPGRMPGQGGASGGDRAGARAAPADRVAERPALG----------TGTGSL  116
+             E +  C     PG +PG  G  G   +   + P      R   G           G   +
+Sbjct  1415  ERACCCTFCKCPG-IPGPHGTRGLQASKGSSGPKGSRGHRGEDGDPGRRGEIGLQGDRGV  1473
+
+Query  117   LGLPALGADTV*AGAGGAAQLPGHPGTEGADGRDHEGVEGLQIGTGGTTDPGGGGDAGTA  176
+             +G P         G  GA    G  G +G DG   EG  G + G G   DPG  G  G  
+Sbjct  1474  VGCPGTRGQKGVKGFSGAQGEHGEDGLDGLDGE--EGFYGFRGGKGQKGDPGNQGYPG--  1529
+
+Query  177   VQGAAGGAGPAG-----------------RGHGGRVRPPGAVPRRGAGHARPEHRGAAG-  218
+             ++GAAG  G  G                 +G  G     G   ++G  H RP  +G+ G 
+Sbjct  1530  IRGAAGEDGEKGFPGDPGDPGKDSNIKGQKGEKGERGRQGITGQKGT-HGRPSSKGSRGM  1588
+
+Query  219   ----APRLPPAQAA*AAPPRCR*PAEAPGSVPGRGPRGRRAR--PQRHPRAPGAPGGTGP  272
+                  P+ P  QA    P   + P    GS    G RG +     Q +    G+PG  GP
+Sbjct  1589  EGQRGPQGPSGQAGNPGPQGTQGPEGLQGSQGSSGNRGGKGDKGSQGYQGPQGSPGPAGP  1648
+
+Query  273   RAGRHCGLPGRPAATGAGPGLGRAAARADGGDGQPDPRPPGRGEGAGGGGARQAGGAGPA  332
+             R     G  GRP   G G   GR       G   P   P  RG+  G  G    G  G  
+Sbjct  1649  R-----GDIGRP---GFG---GRKGEPGVPGGPGPVGPPGQRGK-QGDYGIPGYGQTGRK  1696
+
+Query  333   DTPAGRGLPGPPQE  346
+                   G PG P +
+Sbjct  1697  GVKGPTGFPGDPGQ  1710
+
+
+>A8TX70.1 RecName: Full=Collagen alpha-5(VI) chain; AltName: Full=Collagen 
+alpha-1(XXIX) chain; AltName: Full=von Willebrand factor 
+A domain-containing protein 4; Flags: Precursor
+Length=2615
+
+ Score = 48.1 bits (113),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 68/249 (27%), Positives = 95/249 (38%), Gaps = 41/249 (16%)
+
+Query  138   PGHPGTEGADG----RDHEGVEGLQIGTGGTTDPGGGGDAGTAVQGAAGGAGPAGRGHGG  193
+             PG PG  G  G    +  +G++G +   G   +PG  GD G   QG  G AG        
+Sbjct  1394  PGIPGPHGTRGLQAMKGSQGLKGSRGHRGEDGNPGVRGDTGP--QGDKGIAGC-------  1444
+
+Query  194   RVRPPGAVPRRG-AGHARPEHRGAAGAPRLPPAQAA*AAPPRCR*PAEAPGSVPGRGPRG  252
+                 PGA  ++G  G + P+             +      P  +     PGS   +G  G
+Sbjct  1445  ----PGAWGQKGLKGFSGPKGGHGDDGIDGLDGEEGCHGFPGIKGEKGDPGS---QGSPG  1497
+
+Query  253   RRARPQRHPRA--PGAPGGTGPRAGRHCGLPGRPAATGAGPGLGRAAARADGGDGQPDPR  310
+              R  P ++     PG PG      G++  + G+  + G     GR+  +  G  G P  R
+Sbjct  1498  SRGAPGQYGEKGFPGDPGN----PGQNNNIKGQKGSKGEQGRQGRSGQK--GVQGSPSSR  1551
+
+Query  311   PPGRGEGAGG--GGARQAGGAGPADTPAGRGLPGPPQELVRAPGGRHAAPVGRAGGEGA-  367
+                  EG  G  G + + G  GP  T    GL GP         G    P GR G +G+ 
+Sbjct  1552  GSRGREGQRGLRGVSGEPGNPGPTGTLGAEGLQGPQ--------GSQGNP-GRKGEKGSQ  1602
+
+Query  368   GCRGHQRRP  376
+             G +G Q  P
+Sbjct  1603  GQKGPQGSP  1611
+
+
+ Score = 43.9 bits (102),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 67/267 (25%), Positives = 86/267 (32%), Gaps = 59/267 (22%)
+
+Query  118   GLPALGADTV*AGAGGAAQLPGHPGTEGADG----------------RDHEGVEGLQIGT  161
+             G P +  DT   G  G A  PG  G +G  G                   EG  G     
+Sbjct  1425  GNPGVRGDTGPQGDKGIAGCPGAWGQKGLKGFSGPKGGHGDDGIDGLDGEEGCHGFPGIK  1484
+
+Query  162   GGTTDPGGGGDAGTA-----------------------VQGAAGGAGPAGR-GHGGRVRP  197
+             G   DPG  G  G+                        ++G  G  G  GR G  G+   
+Sbjct  1485  GEKGDPGSQGSPGSRGAPGQYGEKGFPGDPGNPGQNNNIKGQKGSKGEQGRQGRSGQKGV  1544
+
+Query  198   PGAVPRRGAGHARPEH--RGAAGAPRLPPAQAA*AAPPRCR*PAEAPGSVPGRGPRGRRA  255
+              G+   RG+     +   RG +G P  P              P    G+   +GP+G + 
+Sbjct  1545  QGSPSSRGSRGREGQRGLRGVSGEPGNPG-------------PTGTLGAEGLQGPQGSQG  1591
+
+Query  256   RPQRHPRAPGAPGGTGPRAGRHCGLPGRPAATGAGPGLGRAAARADGGDGQPDPRPPGRG  315
+              P R     G+ G  GP+     GL G   +TG    LG+       GD  P  +   RG
+Sbjct  1592  NPGRKGEK-GSQGQKGPQGSP--GLMGAKGSTGRPGLLGKKGEPGLPGDLGPVGQTGQRG  1648
+
+Query  316   EGAGGGGARQAGGAGPADTPAGRGLPG  342
+                G  G    G  G       RG PG
+Sbjct  1649  R-QGDSGIPGYGQMGRKGVKGPRGFPG  1674
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.144    0.474    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 38172119934
+
+
+  Database: swissprot
+    Posted date:  Oct 18, 2017  4:04 PM
+  Number of letters in database: 176,193,313
+  Number of sequences in database:  467,960
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

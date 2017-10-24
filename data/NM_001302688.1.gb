@@ -1,0 +1,289 @@
+LOCUS       NM_001302688            1316 bp    mRNA    linear   PRI 24-OCT-2017
+DEFINITION  Homo sapiens apolipoprotein E (APOE), transcript variant 1, mRNA.
+ACCESSION   NM_001302688 XM_005258867
+VERSION     NM_001302688.1
+KEYWORDS    RefSeq.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 1316)
+  AUTHORS   Zhang M, Li Y, Wei X, Tian F, Ouyang F, Zhao S and Liu L.
+  TITLE     Indispensable role of lipoprotein bound-ApoE in adipogenesis and
+            endocytosis induced by postprandial TRL
+  JOURNAL   Biochem. Biophys. Res. Commun. 493 (1), 298-305 (2017)
+   PUBMED   28893538
+  REMARK    GeneRIF: Taken together, lipoprotein-bound ApoE was required in
+            both postprandial TRL-induced adipogenesis and TRL endocytosis by
+            the differentiating adipocytes, the latter could be partially
+            through low density lipoprotein receptor family dependent-pathway.
+REFERENCE   2  (bases 1 to 1316)
+  AUTHORS   Amor-Salamanca A, Castillo S, Gonzalez-Vioque E, Dominguez F,
+            Quintana L, Lluis-Ganella C, Escudier JM, Ortega J, Lara-Pezzi E,
+            Alonso-Pulpon L and Garcia-Pavia P.
+  TITLE     Genetically Confirmed Familial Hypercholesterolemia in Patients
+            With Acute Coronary Syndrome
+  JOURNAL   J. Am. Coll. Cardiol. 70 (14), 1732-1740 (2017)
+   PUBMED   28958330
+  REMARK    GeneRIF: ApoE associated with Familial Hypercholesterolemia and
+            Polygenic Hypercholesterolemia in patients with Acute Coronary
+            Syndrome , age </=65 years, and LDL-C levels >/=160 mg/dl.
+REFERENCE   3  (bases 1 to 1316)
+  AUTHORS   Krasemann S, Madore C, Cialic R, Baufeld C, Calcagno N, El Fatimy
+            R, Beckers L, O'Loughlin E, Xu Y, Fanek Z, Greco DJ, Smith ST,
+            Tweet G, Humulock Z, Zrzavy T, Conde-Sanroman P, Gacias M, Weng Z,
+            Chen H, Tjon E, Mazaheri F, Hartmann K, Madi A, Ulrich JD, Glatzel
+            M, Worthmann A, Heeren J, Budnik B, Lemere C, Ikezu T, Heppner FL,
+            Litvak V, Holtzman DM, Lassmann H, Weiner HL, Ochando J, Haass C
+            and Butovsky O.
+  TITLE     The TREM2-APOE Pathway Drives the Transcriptional Phenotype of
+            Dysfunctional Microglia in Neurodegenerative Diseases
+  JOURNAL   Immunity 47 (3), 566-581 (2017)
+   PUBMED   28930663
+  REMARK    GeneRIF: Our work identifies the TREM2-APOE pathway as a major
+            regulator of microglial functional phenotype in neurodegenerative
+            diseases and serves as a novel target that could aid in the
+            restoration of homeostatic microglia.
+REFERENCE   4  (bases 1 to 1316)
+  AUTHORS   Kim H, Yoo J, Shin J, Chang Y, Jung J, Jo DG, Kim J, Jang W,
+            Lengner CJ, Kim BS and Kim J.
+  TITLE     Modelling APOE varepsilon3/4 allele-associated sporadic Alzheimer's
+            disease in an induced neuron
+  JOURNAL   Brain 140 (8), 2193-2209 (2017)
+   PUBMED   28899010
+  REMARK    GeneRIF: data provide a direct connection between APOE
+            varepsilon3/4 and another Alzheimer's disease susceptibility gene
+            and demonstrate in proof of principle the utility of induced
+            neuron-based modelling of Alzheimer's disease for therapeutic
+            discovery
+REFERENCE   5  (bases 1 to 1316)
+  AUTHORS   Greyshock,N., Guyton,J.R., Sebastian,S. and Okorodudu,D.
+  TITLE     APOE p.Leu167del-Related Lipid Disorders
+  JOURNAL   (in) Adam MP, Ardinger HH, Pagon RA, Wallace SE, Bean LJH, Mefford
+            HC, Stephens K, Amemiya A and Ledbetter N (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   24921113
+REFERENCE   6  (bases 1 to 1316)
+  AUTHORS   Bird,T.D.
+  TITLE     Alzheimer Disease Overview
+  JOURNAL   (in) Adam MP, Ardinger HH, Pagon RA, Wallace SE, Bean LJH, Mefford
+            HC, Stephens K, Amemiya A and Ledbetter N (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   20301340
+REFERENCE   7  (bases 1 to 1316)
+  AUTHORS   McLean,J.W., Elshourbagy,N.A., Chang,D.J., Mahley,R.W. and
+            Taylor,J.M.
+  TITLE     Human apolipoprotein E mRNA. cDNA cloning and nucleotide sequencing
+            of a new variant
+  JOURNAL   J. Biol. Chem. 259 (10), 6498-6504 (1984)
+   PUBMED   6327682
+REFERENCE   8  (bases 1 to 1316)
+  AUTHORS   Utermann,G., Pruin,N. and Steinmetz,A.
+  TITLE     Polymorphism of apolipoprotein E. III. Effect of a single
+            polymorphic gene locus on plasma lipid levels in man
+  JOURNAL   Clin. Genet. 15 (1), 63-72 (1979)
+   PUBMED   759055
+REFERENCE   9  (bases 1 to 1316)
+  AUTHORS   Innerarity,T.L., Mahley,R.W., Weisgraber,K.H. and Bersot,T.P.
+  TITLE     Apoprotein (E--A-II) complex of human plasma lipoproteins. II.
+            Receptor binding activity of a high density lipoprotein subfraction
+            modulated by the apo(E--A-II) complex
+  JOURNAL   J. Biol. Chem. 253 (17), 6289-6295 (1978)
+   PUBMED   210175
+REFERENCE   10 (bases 1 to 1316)
+  AUTHORS   Weisgraber,K.H. and Mahley,R.W.
+  TITLE     Apoprotein (E--A-II) complex of human plasma lipoproteins. I.
+            Characterization of this mixed disulfide and its identification in
+            a high density lipoprotein subfraction
+  JOURNAL   J. Biol. Chem. 253 (17), 6281-6288 (1978)
+   PUBMED   210174
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from HY056112.1, BM042032.1,
+            BC003557.1 and AL037046.3.
+            On Nov 7, 2014 this sequence version replaced gi:530416440.
+            
+            Summary: The protein encoded by this gene is a major apoprotein of
+            the chylomicron. It binds to a specific liver and peripheral cell
+            receptor, and is essential for the normal catabolism of
+            triglyceride-rich lipoprotein constituents. This gene maps to
+            chromosome 19 in a cluster with the related apolipoprotein C1 and
+            C2 genes. Mutations in this gene result in familial
+            dysbetalipoproteinemia, or type III hyperlipoproteinemia (HLP III),
+            in which increased plasma cholesterol and triglycerides are the
+            consequence of impaired clearance of chylomicron and VLDL remnants.
+            [provided by RefSeq, Jun 2016].
+            
+            Transcript Variant: This variant (1) represents the longest
+            transcript and encodes the longer isoform (a).
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: ERR279841.4394.1, ERR279831.1485.1
+                                           [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMEA1965299, SAMEA1966682
+                                           [ECO:0000348]
+            ##Evidence-Data-END##
+            COMPLETENESS: complete on the 3' end.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-68                HY056112.1         1-68
+            69-769              BM042032.1         2-702
+            770-1295            BC003557.1         617-1142
+            1296-1316           AL037046.3         370-390
+FEATURES             Location/Qualifiers
+     source          1..1316
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="19"
+                     /map="19q13.32"
+     gene            1..1316
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /note="apolipoprotein E"
+                     /db_xref="GeneID:348"
+                     /db_xref="HGNC:HGNC:613"
+                     /db_xref="MIM:107741"
+     exon            1..175
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /inference="alignment:Splign:2.0.8"
+     misc_feature    19..21
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /note="upstream in-frame stop codon"
+     CDS             121..1152
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /note="isoform a precursor is encoded by transcript
+                     variant 1; apolipoprotein E3"
+                     /codon_start=1
+                     /product="apolipoprotein E isoform a precursor"
+                     /protein_id="NP_001289617.1"
+                     /db_xref="GeneID:348"
+                     /db_xref="HGNC:HGNC:613"
+                     /db_xref="MIM:107741"
+                     /translation="MSSGASRKSWDPGNPWPPDWPITGRKMKVLWAALLVTFLAGCQA
+                     KVEQAVETEPEPELRQQTEWQSGQRWELALGRFWDYLRWVQTLSEQVQEELLSSQVTQ
+                     ELRALMDETMKELKAYKSELEEQLTPVAEETRARLSKELQAAQARLGADMEDVCGRLV
+                     QYRGEVQAMLGQSTEELRVRLASHLRKLRKRLLRDADDLQKRLAVYQAGAREGAERGL
+                     SAIRERLGPLVEQGRVRAATVGSLAGQPLQERAQAWGERLRARMEEMGSRTRDRLDEV
+                     KEQVAEVRAKLEEQAQQIRLQAEAFQARLKSWFEPLVEDMQRQWAGLVEKVQAAVGTS
+                     AAPVPSDNH"
+     sig_peptide     121..252
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /inference="COORDINATES: ab initio prediction:SignalP:4.0"
+     exon            176..241
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /inference="alignment:Splign:2.0.8"
+     exon            242..434
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /inference="alignment:Splign:2.0.8"
+     STS             364..471
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /standard_name="PMC99927P2"
+                     /db_xref="UniSTS:273705"
+     exon            435..1297
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /inference="alignment:Splign:2.0.8"
+     STS             457..755
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /standard_name="GDB:171177"
+                     /db_xref="UniSTS:154776"
+     STS             490..755
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /standard_name="GDB:181693"
+                     /db_xref="UniSTS:155329"
+     STS             519..746
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /standard_name="GDB:169570"
+                     /db_xref="UniSTS:154765"
+     STS             522..747
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /standard_name="GDB:438097"
+                     /db_xref="UniSTS:157265"
+     STS             523..793
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /standard_name="GDB:196979"
+                     /db_xref="UniSTS:155901"
+     STS             532..861
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /standard_name="GDB:177380"
+                     /db_xref="UniSTS:154875"
+     STS             532..749
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /standard_name="PMC117303P1"
+                     /db_xref="UniSTS:270328"
+     STS             724..867
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /standard_name="STS-N29699"
+                     /db_xref="UniSTS:34644"
+     STS             851..1051
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /standard_name="PMC310963P4"
+                     /db_xref="UniSTS:272827"
+     STS             938..1069
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /standard_name="RH11470"
+                     /db_xref="UniSTS:72925"
+     STS             1034..1164
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /standard_name="STS-K00396"
+                     /db_xref="UniSTS:64138"
+     regulatory      1270..1275
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+     polyA_site      1295
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+     polyA_site      1297
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+ORIGIN      
+        1 gggacagggg gagccctata attggacaag tctgggatcc ttgagtccta ctcagcccca
+       61 gcggaggtga aggacgtcct tccccaggag ccggtgagaa gcgcagtcgg gggcacgggg
+      121 atgagctcag gggcctctag aaagagctgg gaccctggga acccctggcc tccagactgg
+      181 ccaatcacag gcaggaagat gaaggttctg tgggctgcgt tgctggtcac attcctggca
+      241 ggatgccagg ccaaggtgga gcaagcggtg gagacagagc cggagcccga gctgcgccag
+      301 cagaccgagt ggcagagcgg ccagcgctgg gaactggcac tgggtcgctt ttgggattac
+      361 ctgcgctggg tgcagacact gtctgagcag gtgcaggagg agctgctcag ctcccaggtc
+      421 acccaggaac tgagggcgct gatggacgag accatgaagg agttgaaggc ctacaaatcg
+      481 gaactggagg aacaactgac cccggtggcg gaggagacgc gggcacggct gtccaaggag
+      541 ctgcaggcgg cgcaggcccg gctgggcgcg gacatggagg acgtgtgcgg ccgcctggtg
+      601 cagtaccgcg gcgaggtgca ggccatgctc ggccagagca ccgaggagct gcgggtgcgc
+      661 ctcgcctccc acctgcgcaa gctgcgtaag cggctcctcc gcgatgccga tgacctgcag
+      721 aagcgcctgg cagtgtacca ggccggggcc cgcgagggcg ccgagcgcgg cctcagcgcc
+      781 atccgcgagc gcctggggcc cctggtggaa cagggccgcg tgcgggccgc cactgtgggc
+      841 tccctggccg gccagccgct acaggagcgg gcccaggcct ggggcgagcg gctgcgcgcg
+      901 cggatggagg agatgggcag ccggacccgc gaccgcctgg acgaggtgaa ggagcaggtg
+      961 gcggaggtgc gcgccaagct ggaggagcag gcccagcaga tacgcctgca ggccgaggcc
+     1021 ttccaggccc gcctcaagag ctggttcgag cccctggtgg aagacatgca gcgccagtgg
+     1081 gccgggctgg tggagaaggt gcaggctgcc gtgggcacca gcgccgcccc tgtgcccagc
+     1141 gacaatcact gaacgccgaa gcctgcagcc atgcgacccc acgccacccc gtgcctcctg
+     1201 cctccgcgca gcctgcagcg ggagaccctg tccccgcccc agccgtcctc ctggggtgga
+     1261 ccctagttta ataaagattc accaagtttc acgcatcaaa aaaaaaaaaa aaaaaa
+//
+

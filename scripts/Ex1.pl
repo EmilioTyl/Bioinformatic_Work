@@ -2,7 +2,8 @@ use Bio::Perl;
 use Bio::SeqIO;
 
 my $numArgs = $#ARGV + 1;
-my $genbank_name = "NM_000207.2.gb";
+
+my $genbank_name = "NM_001302688.1.gb";
 if ($numArgs > 0){
   $genbank_name = @ARGV[0];
 }

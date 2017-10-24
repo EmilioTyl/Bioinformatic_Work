@@ -9,11 +9,11 @@ my $numArgs = $#ARGV + 1;
 my $fasta_aminoacid_file = "../data/exercise1_out/procesed_protein_orf2.fas";
 my $blast_report_name = "blast_report.out";
 my $remote = 0;
-#if ($numArgs > 0){
-#  $fasta_aminoacid_file = @ARGV[0];
-#  $blast_report_name = @ARGV[1];
-#  $remote = @ARGV[2];
-#}
+if ($numArgs > 0){
+  $fasta_aminoacid_file = @ARGV[0];
+  $blast_report_name = @ARGV[1];
+  $remote = @ARGV[2];
+}
 my $out_filename = "../data/exercise2_out/$blast_report_name";
 
 
@@ -71,7 +71,7 @@ if ($remote == 1){
 		                                                    #-prog_dir => '/Users/emiliotylson/ncbi-blast/ncbi-blast-2.6.0+/bin');
   #my $blast_report = $local_blast->blastp($query_in);
   #print $balst_report;
-  
+
   print("DONE");
 
 }
