@@ -5,15 +5,29 @@ use Bio::Tools::Run::StandAloneBlast;
 use Bio::Tools::Run::StandAloneBlastPlus;
 
 
+# El siguient ecodigo realiza BLAST sobre Apoliprotein de forma local o remota.
+#Basicamente se le va introducioendo el archivo en formato fasta de la proteina,
+# y genera un blast report en el a carpeta ../data/exercise2_out.
+# La variable $remote si es 0 realiza la operación de
+#forma local, si no remota.
+
+#Como conlsión se pude observar que de todos los BLAST hechos, el del marco
+#de lectura 0 es el genera mas matchs. De hecho todas las proteinas con las que
+# se esta alineando son distintas variaciones de la Apoliprotein en distintas especies.
+# Por ejemplo la segunda proteina con mas score de coincidencia es la Q9GLM7 que pertenece a la
+#especie del orangutan, o la tercera (Q9GLM8) es la Apoliprotein de los gorilas.
+
 my $numArgs = $#ARGV + 1;
-my $fasta_aminoacid_file = "../data/exercise1_out/procesed_protein_orf2.fas";
-my $blast_report_name = "blast_report.out";
+my $fasta_aminoacid_name = "procesed_protein_orf2.fas";
+my $blast_report_name = "blast_report_orf2.out";
 my $remote = 0;
 if ($numArgs > 0){
-  $fasta_aminoacid_file = @ARGV[0];
+  $fasta_aminoacid_name = @ARGV[0];
   $blast_report_name = @ARGV[1];
   $remote = @ARGV[2];
 }
+
+my $fasta_aminoacid_file = "../data/exercise1_out/$blast_report_name";
 my $out_filename = "../data/exercise2_out/$blast_report_name";
 
 

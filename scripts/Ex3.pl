@@ -2,20 +2,23 @@ use Bio::Perl;
 use Bio::SeqIO;
 use Bio::SearchIO;
 use Bio::DB::Fasta;
-BEGIN {$ENV{PATH} = '$ENV{PATH}:/Users/emiliotylson/muscle/bin'; }
-BEGIN {$ENV{MUSCLEDIR} = '/Users/emiliotylson/muscle/bin'; }
-use Bio::Tools::Run::Alignment::Muscle;
 
+# El siguiente código toma como input el archivo blast generado en el ejercicicio 2.
+# Luego, toma el nombre de las primeras 10 secuencias con mayor score en el alineamiento.
+# Luego busca la correspondiente secuenias en la base de datos swissprot y las
+# escribe en un archivo fasta, en el que también esta presente la Apoliprotein, nuestra
+# proteina de referencia.
 
-
-my $blast_report_name = "blast_report.out";
+my $blast_report_name = "blast_report_orf0.out";
+my $fasta_protein_name = "procesed_protein_orf0.fas";
 my $numArgs = $#ARGV + 1;
 if ($numArgs > 0){
   $blast_report_name = @ARGV[0];
+  $fasta_protein_name = @ARGV[1];
 }
 my $blast_filename = "../data/exercise2_out/$blast_report_name";
 my $db = Bio::DB::Fasta->new('/Users/emiliotylson/ncbi-blast/ncbi-blast-2.6.0+/data/swissprot');
-my $fasta_aminoacid_file = "../data/exercise1_out/procesed_protein_orf2.fas";
+my $fasta_aminoacid_file = "../data/exercise1_out/$fasta_protein_name";
 my $fasta_top_10_name = "../data/exercise3_out/top10_matches.fas";
 
 my @seqs = ();
@@ -41,10 +44,8 @@ while( $s = $t->next_seq() ){
   push @seqs, $s;
 }
 
-#https://www.ebi.ac.uk/Tools/msa/
-#@params = ('ktuple' => 2, 'matrix' => 'BLOSUM');
-#$aligner = Bio::Tools::Run::Alignment::Muscle->new(@params);
-
-#print "@seqs.\n";
-#$fas_seqs_ref = @seqs;
-#$res = $aligner->align(\@seqs); # $aln is a SimpleAlign object.
+#De la página https://www.ebi.ac.uk/Tools/msa/ que ofrece diferentes alternativas
+# para realizar el secuenciamiente, usamos T-Coffe. En dicha applicación subimos
+#el archivo generado por el código anterior, el cual genera un archivo fasta con
+#las 10 secuencia con más similares obteneidas por BLAST sobre Apoliprotein. La
+#alineación gennera un archivo que esta subido en ../data/exercise3_out/msa.out.
