@@ -5,15 +5,15 @@ use Bio::Tools::Run::StandAloneBlast;
 use Bio::Tools::Run::StandAloneBlastPlus;
 
 
-# El siguient ecodigo realiza BLAST sobre Apoliprotein de forma local o remota.
-#Basicamente se le va introducioendo el archivo en formato fasta de la proteina,
+# El siguiente codigo realiza BLAST sobre Apoliproteina E de forma local o remota.
+# Basicamente se usa el archivo en formato fasta de la proteina,
 # y genera un blast report en el a carpeta ../data/exercise2_out.
 # La variable $remote si es 0 realiza la operación de
 #forma local, si no remota.
 
 #Como conlsión se pude observar que de todos los BLAST hechos, el del marco
 #de lectura 0 es el genera mas matchs. De hecho todas las proteinas con las que
-# se esta alineando son distintas variaciones de la Apoliprotein en distintas especies.
+# se esta alineando son distintas variaciones de la Apolipoproteina E en distintas especies.
 # Por ejemplo la segunda proteina con mas score de coincidencia es la Q9GLM7 que pertenece a la
 #especie del orangutan, o la tercera (Q9GLM8) es la Apoliprotein de los gorilas.
 

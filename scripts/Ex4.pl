@@ -4,7 +4,15 @@ use Bio::SeqIO;
 use Bio::SearchIO;
 use Bio::DB::Fasta;
 
-my $blast_report_name = "blast_report_orf0.out";
+#El código busca el nombre de cada proteína incluida en el BLAST report, cuya descripción
+#contenga el pattern ingresado como input. Luego por cada proteína se busca la secuencia`
+#en la base de datos swissprot. Luego cada secuencia es escrita en un archivo fasta con el
+#nombre que es ingresado por parámetro. A su vez por cada match del pattern se escribe en
+#un archivo paralelo el ACCESSION que indica la proteína, su descripción y el índice de la
+#descripción donde hubo match del pattern.
+
+
+my $blast_report_name = "../data/exercise2_out/blast_report_orf0.out";
 my $pattern = "A4";
 my $output_name = "hits";
 my $numArgs = $#ARGV + 1;
@@ -15,7 +23,7 @@ if ($numArgs > 0){
   $output_name = @ARGV[2];
 }
 
-my $blast_filename = "../data/exercise2_out/$blast_report_name";
+my $blast_filename = $blast_report_name;
 my $blast_report = Bio::SearchIO->new('-format' => 'blast', '-file' => $blast_filename);
 
 my $output_filename_fasta = "../data/exercise4_out/$output_name.fas";

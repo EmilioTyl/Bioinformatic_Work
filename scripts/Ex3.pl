@@ -3,10 +3,10 @@ use Bio::SeqIO;
 use Bio::SearchIO;
 use Bio::DB::Fasta;
 
-# El siguiente código toma como input el archivo blast generado en el ejercicicio 2.
+# El siguiente código toma como input el archivo BLAST generado en el ejercicicio 2.
 # Luego, toma el nombre de las primeras 10 secuencias con mayor score en el alineamiento.
 # Luego busca la correspondiente secuenias en la base de datos swissprot y las
-# escribe en un archivo fasta, en el que también esta presente la Apoliprotein, nuestra
+# escribe en un archivo fasta, en el que también esta presente la Apoliproteina E, nuestra
 # proteina de referencia.
 
 my $blast_report_name = "../data/exercise2_out/blast_report_orf0.out";
@@ -45,7 +45,7 @@ while( $s = $t->next_seq() ){
 }
 
 #De la página https://www.ebi.ac.uk/Tools/msa/ que ofrece diferentes alternativas
-# para realizar el secuenciamiente, usamos T-Coffe. En dicha applicación subimos
+# para realizar el secuenciamiento, usamos T-Coffe. En dicha applicación subimos
 #el archivo generado por el código anterior, el cual genera un archivo fasta con
-#las 10 secuencia con más similares obteneidas por BLAST sobre Apoliprotein. La
+#las 10 secuencia con más similitud obteneidas por BLAST sobre Apoliprotein. La
 #alineación gennera un archivo que esta subido en ../data/exercise3_out/msa.out.
