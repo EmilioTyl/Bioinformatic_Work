@@ -2,7 +2,7 @@ import os
 import sys
 import subprocess
 
-exes_wanted = ['transeq', 'getorf', 'patmatmotifs']
+exes_wanted = ['transeq', 'getorf', 'patmatmotifs', 'prosextract']
 exes = {};
 path = os.environ['EMBOSS_ROOT']
 
@@ -20,6 +20,17 @@ child = subprocess.Popen(str(cline),
                         universal_newlines=True,
                         shell=(sys.platform != "win32"))
 
+child.wait()
+
+print('prosextract')
+cline = exes['prosextract']
+cline += ' .'
+child = subprocess.Popen(str(cline),
+                        stdin=subprocess.PIPE,
+                        stdout=subprocess.PIPE,
+                        stderr=subprocess.PIPE,
+                        universal_newlines=True,
+                        shell=(sys.platform != "win32"))
 child.wait()
 
 print('patmatmotifs')
