@@ -14,14 +14,13 @@ use Bio::SeqIO;
 #frente a una base de datos d eproteinas, se podrá estimar de mejor manera cuál
 # es el marco de lectura correcto .
 
- 
+
 my $numArgs = $#ARGV + 1;
-my $genbank_name = "NM_001302688.1.gb";
+my $gb_file = "../data/NM_001302688.1.gb";
 if ($numArgs > 0){
-  $genbank_name = @ARGV[0];
+  $gb_file = @ARGV[0];
 }
 
-my $gb_file = "../data/$genbank_name";
 
 
 my $dna_seqio_object = Bio::SeqIO->new(-file => $gb_file, -format => "genbank");

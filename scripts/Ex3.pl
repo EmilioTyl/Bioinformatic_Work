@@ -9,16 +9,16 @@ use Bio::DB::Fasta;
 # escribe en un archivo fasta, en el que también esta presente la Apoliprotein, nuestra
 # proteina de referencia.
 
-my $blast_report_name = "blast_report_orf0.out";
-my $fasta_protein_name = "procesed_protein_orf0.fas";
+my $blast_report_name = "../data/exercise2_out/blast_report_orf0.out";
+my $fasta_protein_name = "../data/exercise1_out/procesed_protein_orf0.fas";
 my $numArgs = $#ARGV + 1;
 if ($numArgs > 0){
   $blast_report_name = @ARGV[0];
   $fasta_protein_name = @ARGV[1];
 }
-my $blast_filename = "../data/exercise2_out/$blast_report_name";
+my $blast_filename = $blast_report_name;
 my $db = Bio::DB::Fasta->new('/Users/emiliotylson/ncbi-blast/ncbi-blast-2.6.0+/data/swissprot');
-my $fasta_aminoacid_file = "../data/exercise1_out/$fasta_protein_name";
+my $fasta_aminoacid_file = $fasta_protein_name;
 my $fasta_top_10_name = "../data/exercise3_out/top10_matches.fas";
 
 my @seqs = ();

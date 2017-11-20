@@ -18,8 +18,8 @@ use Bio::Tools::Run::StandAloneBlastPlus;
 #especie del orangutan, o la tercera (Q9GLM8) es la Apoliprotein de los gorilas.
 
 my $numArgs = $#ARGV + 1;
-my $fasta_aminoacid_name = "procesed_protein_orf2.fas";
-my $blast_report_name = "blast_report_orf2.out";
+my $fasta_aminoacid_name = "../data/exercise1_out/procesed_protein_orf2.fas";
+my $blast_report_name = "../data/exercise2_out/blast_report_orf2.out";
 my $remote = 0;
 if ($numArgs > 0){
   $fasta_aminoacid_name = @ARGV[0];
@@ -27,8 +27,8 @@ if ($numArgs > 0){
   $remote = @ARGV[2];
 }
 
-my $fasta_aminoacid_file = "../data/exercise1_out/$blast_report_name";
-my $out_filename = "../data/exercise2_out/$blast_report_name";
+my $fasta_aminoacid_file = $fasta_aminoacid_name;
+my $out_filename = $blast_report_name;
 
 
 if ($remote == 1){
